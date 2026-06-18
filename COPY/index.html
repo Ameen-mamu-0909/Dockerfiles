@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CloudTech Solutions</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Header */
+
+header{
+    background:#0d47a1;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+}
+
+/* Hero */
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:22px;
+}
+
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#ff9800;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* Services */
+
+.services{
+    padding:70px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:40px;
+    color:#0d47a1;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#1565c0;
+}
+
+/* Footer */
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">☁ CloudTech</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Welcome to CloudTech Solutions</h1>
+
+<p>AWS | DevOps | Cloud | Automation</p>
+
+<button>Get Started</button>
+
+</div>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>AWS Cloud</h3>
+<p>Design and deploy scalable AWS infrastructure.</p>
+</div>
+
+<div class="card">
+<h3>DevOps</h3>
+<p>CI/CD pipelines using Jenkins, Docker and Kubernetes.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Security</h3>
+<p>Implement IAM, Security Groups and VPC best practices.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>CloudTech Solutions</h3>
+
+<p>Email: info@cloudtech.com</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
